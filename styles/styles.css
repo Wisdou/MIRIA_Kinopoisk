@@ -136,7 +136,7 @@ body{
 .kino_content > div{
     display: block;
     margin: auto;
-    width: 1150px;
+    width: 1170px;
 }
 
 .current_film{
@@ -257,10 +257,6 @@ body{
     color: #FFC30D;
 }
 
-.new_films{
-    height: 680px;
-}
-
 .new_films > h2{
     font-family: 'Bebas Neue Cyrillic';
     font-style: normal;
@@ -268,10 +264,38 @@ body{
     font-size: 30px;
     line-height: 14px;
     color: #FFFFFF;
+    margin-bottom: 46px;
+}
+
+.new_films_grid{
+    display: grid;
+    grid-template-columns: 550px 290px 290px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-template-areas:
+    "a b d"
+    "a c c";
+}
+
+.new_films_main_film{
+    grid-area: a;
+}
+
+.new_films_sec_film{
+    grid-area: b;
+}
+
+.new_films_th_film{
+    grid-area: d;
+}
+
+.new_films_bottom_film{
+    grid-area: c;
 }
 
 .films_list{
     height: 400px;
+    margin-bottom: 30px;
 }
 
 .films_list > h2{
@@ -281,10 +305,18 @@ body{
     font-size: 30px;
     line-height: 14px;
     color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.films_list_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 281px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
 }
 
 .serials{
-    height: 215px;
+    margin-bottom: 30px;
 }
 
 .serials > h2{
@@ -294,23 +326,37 @@ body{
     font-size: 30px;
     line-height: 14px;
     color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.serials_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 281px);
+    grid-gap: 15px;
 }
 
 .cartoons{
-    height: 215px;
+    margin-bottom: 30px;
 }
 
-.cartoons{
+.cartoons > h2{
     font-family: 'Bebas Neue Cyrillic';
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 14px;
     color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.cartoons_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 281px);
+    grid-gap: 15px;
 }
 
 .anime{
-    height: 215px;
+    padding-bottom: 80px;
 }
 
 .anime > h2{
@@ -320,6 +366,13 @@ body{
     font-size: 30px;
     line-height: 14px;
     color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.anime_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 281px);
+    grid-gap: 15px;
 }
 /* content_container styles end */
 
