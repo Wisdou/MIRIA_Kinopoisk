@@ -4,17 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>TV Website</title>
 </head>
 <body>
-    <header>
-
+    <aside class="kino_menu">
+        <nav>
+            <div class="nav_menu">
+                <ul>
+                    <li><a href=""><img src="/images/menu/search.svg" alt=""></a></li>
+                    <li><a href=""><img src="/images/menu/ticket.svg" alt=""></a></li>
+                    <li><a href=""><img src="/images/menu/duplicate.svg" alt=""></a></li>
+                    <li><a href=""><img src="/images/menu/like.svg" alt=""></a></li>
+                    <li><a href=""><img src="/images/menu/bookmark.svg" alt=""></a></li>
+                    <li><a href=""><img src="/images/menu/television.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="profile_menu">
+                <ul>
+                    <li><a href=""><img src="/images/menu/profile.svg" alt=""></a></li>
+                    <li><a href=""><img src="/images/menu/exit.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </nav>
+    </aside>
+    <header class="kino_header">
+        <div class="header_logo">
+            <img src="/images/logo.svg" alt="">
+            <span>TVimo</span>
+        </div>
+        <div class="kino_user">
+            <div class="fire_icon">
+                <img src="/images/films/fire.svg" alt="">
+            </div>
+            <div class="bell_icon">
+                <img src="/images/films/bell.svg" alt="">
+            </div>
+            <div class="header_profile">
+                <img src="/images/films/profile.png" alt="">
+                <div class="header_about">
+                    <div class="header_name">Kinoman #294</div>
+                    <div class="header_status">
+                        <img src="/images/films/clock.svg" alt=""><span>Активно</span>
+                    </div>
+                  </div>
+            </div>
+        </div>
     </header>
-    <main>
-        
-    </main>
-    <footer>
+    <main class="kino_content">
+        <div class="content_page">
+            <section class="current_film">
+                <div class="film_container">
+                    <div class="film_descr">
+                        <div class="film_span"><img src="/images/films/fire.svg" alt=""><span> ФИЛЬМ</span></div>
+                        <div class="film_name">ДЮНА / DUNE (2021)</div>
+                        <div class="film_name_sec"><img src="/images/films/fourk.svg" alt=""><span> DUNE: PART ONE</span></div>
+                        <div class="film_descr_in">Атрейдесы прибывают на планету, где им никто не рад. Тимоти Шаламе в фантастическом эпосе Дени Вильнёва</div>
+                        <div class="film_rating">
+                            <ul>
+                                <li><span class="critic_name">КП: </span><span class="critic_rating">7.7</span></li>
+                                <li><span class="critic_name">IMDB: </span><span class="critic_rating">8.2</span></li>
+                                <li><span class="critic_name">PG: </span><span class="critic_rating">16+</span></li>
+                                <li><span class="critic_name">ВРЕМЯ: </span><span class="critic_rating">02:35</span></li>
+                            </ul>
+                        </div>
+                        <button class="film_subscr">По подписке TVimo</button>
+                    </div>
+                    <div class="film_image">
+                        <img src="/images/dune_card.png" alt="">
+                    </div>
+                </div>
+            </section>
 
+            <section class="new_films">
+                <h2>Новинки</h2>
+            </section>
+            <section class="films_list">
+                <h2>Фильмы</h2>
+            </section>
+            <section class="serials">
+                <h2>Сериалы</h2>
+            </section>
+            <section class="cartoons">
+                <h2>Мультфильмы</h2>
+            </section>
+            <section class="anime">
+                <h2>Аниме</h2>
+            </section>
+        </div>
+    </main>
+    <footer class="kino_footer">
+        <div class="kino_logo">
+            <img src="/images/logo.svg" alt="">
+            <span>TVimo</span>
+        </div>
+        <div class="kino_copyrat">
+            <span>© 2022, Tvimo, может содержать информацию, не предназначенную для несовершеннолетних</span>
+        </div>
+        <div class="kino_help">
+            <a href="">ЗАДАТЬ ВОПРОС</a>
+            <a href="">СПРАВКА</a>
+        </div>
     </footer>
 </body>
 </html>
