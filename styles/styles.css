@@ -275,6 +275,337 @@ body{
     grid-template-areas:
     "a b d"
     "a c c";
+    margin-bottom: 48px;
+}
+
+.new_films_grid > div{
+    position: relative;
+}
+
+.new_films_grid > div > img{
+    height: 100%;
+}
+
+.new_films_main_film > div{
+    position: absolute;
+}
+
+.new_films_sec_film > div{
+    position: absolute;
+}
+
+.new_films_th_film > div{
+    position: absolute;
+}
+
+.new_films_bottom_film > div{
+    position: absolute;
+}
+
+
+.new_films_main_film > .new_film_quality{
+    width: 169px;
+    height: 37px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    border-radius: 0px 10px 10px 0px;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 338px;
+    left: 0%;
+}
+
+.new_films_main_film > .new_film_descr{
+    width: 453px;
+    height: 96px;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+
+    top: 395px;
+    left: 19px;
+}
+
+.new_films_main_film > .new_film_low_descr{
+    width: 498px;
+    height: 47px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+    top: 501px;
+    left: 19px;
+}
+
+.new_films_main_film > .new_film_button{
+    bottom: 0%;
+    right: 0%;
+    width: 188px;
+    height: 60px;
+    background: #FFC30D;
+    border-radius: 10px 0px;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.new_films_main_film > .new_film_rating{
+    width: 290px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    left: 20px;
+    bottom: 6px;
+}
+
+.new_films_main_film > .new_film_rating > div{
+    display: flex;
+    align-items: center;
+}
+
+.new_films_main_film > .new_film_rating > div > span{
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.new_films_sec_film > .new_film_button{
+    bottom: 0%;
+    right: 0%;
+    width: 100px;
+    height: 32px;
+    background: #FFC30D;
+    border-radius: 10px 0px;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.new_films_sec_film > .new_film_descr{
+    width: 240px;
+    height: 51px;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+    top: 224px;
+    left: 10px;
+}
+
+.new_films_sec_film > .new_film_quality{
+    width: 69px;
+    height: 18px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    border-radius: 0px 10px 10px 0px;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    left: 0%;
+    top: 185px;
+}
+
+.new_films_th_film > .new_film_button{
+    bottom: 0%;
+    right: 0%;
+    width: 100px;
+    height: 32px;
+    background: #FFC30D;
+    border-radius: 10px 0px;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.new_films_th_film > .new_film_descr{
+    width: 240px;
+    height: 51px;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+    top: 224px;
+    left: 10px;
+}
+
+.new_films_th_film > .new_film_quality{
+    width: 69px;
+    height: 18px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    border-radius: 0px 10px 10px 0px;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    left: 0%;
+    top: 185px;
+}
+
+.new_films_th_film > .new_film_rating{
+    width: 130px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    left: 10px;
+    bottom: 6px;
+}
+
+.new_films_sec_film > .new_film_rating{
+    width: 130px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    left: 10px;
+    bottom: 6px;
+}
+
+.new_film_critic {
+    color: #FFF;
+}
+
+.new_film_critic_rating {
+    color: #FFC30D;
+}
+
+.new_films_bottom_film > .new_film_descr{
+    width: 493px;
+    height: 105px;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+    bottom: 0%;
+    left: 20px;
+}
+
+.new_films_bottom_film > .new_film_button{
+    width: 145px;
+    height: 46px;
+    right: 0%;
+    bottom: 0%;
+    background: #FFC30D;
+    border-radius: 10px 0px;
+
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
 }
 
 .new_films_main_film{
